@@ -76,15 +76,19 @@ background:#E34E26;
 /* background des liens menus et sous menus au survol */
 #menu li:first-child:hover, #menu li:first-child li:hover{
 background:#FF977B;
+cursor:pointer;
 }
 #menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
 background:#FF977B;
+cursor:pointer;
 }
 #menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
 background:#FF977B;
+cursor:pointer;
 }
 #menu li:last-child:hover, #menu li:last-child li:hover{
 background:#FF977B;
+cursor:pointer;
 }
 /* les a href */
 #menu a{
