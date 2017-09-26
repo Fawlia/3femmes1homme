@@ -3,18 +3,18 @@
 <html lang="fr"> 
     <head> 
         <meta charset="utf-8"/> 
-        <title>Lexique html - Balise &lt;input&gt; </title> 
+        <title>Lexique html - Balise &lt;input&gt; </title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header> 
-        <div><img src="../html.png" alt="logo html" width="#" height="#"/></div>
+        <div><img class='logo' src="../html.png" alt="logo html" width="#" height="#"/></div>
         <h1> Lexique des balises HTML</h1>
         <nav>
             
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li>
+             <ul id="menu">
+                <li><strong> Structure </strong>
                     <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
@@ -23,8 +23,7 @@
                         <li><a href="../structure/body.html#body">body</a> </li> 
                     </ul>
                 </li>
-                <li><strong> Texte </strong></li>
-                <li>
+                <li><strong> Texte </strong>
                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
@@ -32,16 +31,14 @@
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
                     </ul>
                 </li>
-                <li><strong> Tableau </strong></li>
-                <li>
+                <li><strong> Tableau </strong>
                     <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
                     </ul>
                 </li> 
-                <li><strong> Formulaire </strong></li>
-                <li>
+                <li><strong> Formulaire </strong>
                     <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
@@ -57,17 +54,20 @@
         <h2 id="input">La balise &lt;input&gt; </h2>
             
          <!-- Description -->
+        <section class="des">
             <h3>Description</h3>
                 <p>L'élément HTML &lt;input&gt; est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisateur de saisir des données. </p>
-            
+        </section>   
         <!-- Attribut -->
+        <section class="att">
             <h3>Attributs</h3>
                 <p>Les saisies possibles et le comportement de l'élément &lt;input&gt; dépend fortement de la valeur indiquée dans son attribut « type ». <br/>La valeur par défaut, utilisée lorsqu'aucune valeur n'est fournie est « text ».<br/>
                 <em>text</em> : un champ de texte sur une seule ligne. Les sauts de ligne sont automatiquement retirés de la valeur saisie. </p>
-            
+        </section> 
         <!-- Exemple -->
             
         <!-- Exemple code -->
+        <section class="ex">
             <h3>Exemple</h3>
                 <figure class="ecode"><img src="exemplecodeinput.png" width="379" height="46" alt="exemple code input"/><br/>
                 <figcaption>"Code écrit en utilisant la balise &lt;input&gt;"</figcaption></figure>
@@ -75,7 +75,7 @@
         <!-- Exemple IRL -->            
                 <figure class="eimg"><img src="exempleirlinput.png" width="180" height="30" alt="resultat exemple input"/><br/>
                 <figcaption>"Résultat réel de l'écriture du code avec la balise &lt;input&gt;"</figcaption></figure>
-        
+        </section>
         
          
     </main>

@@ -4,17 +4,16 @@
     <head> 
         <meta charset="utf-8"/> 
         <title>Lexique html - Balise &lt;form&gt;</title> 
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header> 
-        <div><img src="../html.png" alt="logo html" width="#" height="#"/></div>
+        <div><img class='logo' src="../html.png" alt="logo html" width="#" height="#"/></div>
         <h1> Lexique des balises HTML</h1>
         <nav>
-            
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li>
+             <ul id="menu">
+                <li><strong> Structure </strong>
                     <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
@@ -23,8 +22,7 @@
                         <li><a href="../structure/body.html#body">body</a> </li> 
                     </ul>
                 </li>
-                <li><strong> Texte </strong></li>
-                <li>
+                <li><strong> Texte </strong>
                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
@@ -32,21 +30,19 @@
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
                     </ul>
                 </li>
-                <li><strong> Tableau </strong></li>
-                <li>
+                <li><strong> Tableau </strong>
                     <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
                     </ul>
                 </li> 
-                <li><strong> Formulaire </strong></li>
-                <li>
+                <li><strong> Formulaire </strong>
                     <ul> 
-                        <li><a href="../formulaire/form.html#form"> form</a> </li> 
+                        <li><a href="../formulaire/form.html#form"> form</a></li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
-                        <li><a href="../formulaire/textarea.html#textarea"> textarea</a> </li> 
-                        <li> <a href="../formulaire/select.html#select">select</a> </li> 
+                        <li><a href="../formulaire/textarea.html#textarea"> textarea</a></li> 
+                        <li><a href="../formulaire/select.html#select">select</a></li> 
                     </ul>
                 </li>
             </ul>
@@ -57,24 +53,27 @@
         <h2 id="form">La balise &lt;form&gt; </h2>
             
          <!-- Description -->
+         <section class="des">
             <h3>Description</h3>
                 <p>L'élément HTML &lt;form&gt; représente une section d'un document qui contient des contrôles interactifs permettant à un utilisateur d'envoyer des données à un serveur web.</p>
-            
+         </section>   
         <!-- Attribut -->
+        <section class="att">
             <h3>Attributs</h3>
                 <p>2 attributs sont constament utilisés au sein de la balise &lt;form&gt;. L'attribut <strong>"action"</strong> à qui l'on donne une valeur de type "url" pour savoir où envoyer les infos récoltées dans le formulaire. L'attribut <strong>"method"</strong> détermine la manière avec laquelle on envoie ces informations soit avec la valeur "post", soit avec la valeur "get".  </p>
                 <p>Les éléments les plus utilisés à l'intérieur d'un formulaire pour échanger explicitement des informations sont les suivant : </p>
-                    <ul>
+                    <ul class="liste">
                         <li>&lt;button&gt;</li>
                         <li>&lt;input&gt; avec les différents types qui lui sont associés (submit, text, checkbox ...)</li>
                         <li>&lt;select&gt;</li>
                         <li>&lt;label&gt;</li>
                         <li>&lt;textarea&gt;</li>
                     </ul> 
-        
+        </section>
         <!-- Exemple -->
             
         <!-- Exemple code -->
+        <section class="ex">
             <h3>Exemple</h3>
                 <figure class="ecode">
                     <img src="exemplecodeform.png" width="402" height="212" alt="exemple code form"/>
@@ -86,7 +85,7 @@
                     <img src="exempleirlform.png" width="253" height="92" alt="resultat exemple form"/>
                     <figcaption>"Résultat réel de l'écriture du code avec la balise &lt;form&gt;"</figcaption>
                 </figure>
-        
+        </section>
         
          
     </main>

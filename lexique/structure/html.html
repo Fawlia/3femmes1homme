@@ -3,18 +3,18 @@
 <html lang="fr"> 
 	<head> 
 		<meta charset="utf-8"/> 
-		<title>Lexique html - Balise &lt;html&gt;</title>  
+		<title>Lexique html - Balise &lt;html&gt;</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
 	</head> 
 
 <body>
 	<header> 
-        <div><img src="../html.png" alt="logo html" width="#" height="#"/></div>
+        <div><img class="logo" src="../html.png" alt="logo html" width="#" height="#"/></div>
         <h1> Lexique des balises HTML</h1>
         <nav>
             
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li>
+             <ul id="menu">
+                <li><strong> Structure </strong>
                     <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
@@ -23,8 +23,7 @@
                         <li><a href="../structure/body.html#body">body</a> </li> 
                     </ul>
                 </li>
-                <li><strong> Texte </strong></li>
-                <li>
+                <li><strong> Texte </strong>
                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
@@ -32,16 +31,14 @@
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
                     </ul>
                 </li>
-                <li><strong> Tableau </strong></li>
-                <li>
+                <li><strong> Tableau </strong>
                     <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
                     </ul>
                 </li> 
-                <li><strong> Formulaire </strong></li>
-                <li>
+                <li><strong> Formulaire </strong>
                     <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
@@ -54,7 +51,8 @@
     </header>
 
 	<main> 
-		<h2 id="html"> HTML  </h2>
+        <section class="ht">
+		  <h2 id="html"> HTML  </h2>
 		 <!-- Description -->
 		      <p> HTML (HyperTet Markup Language) est un langage descriptif utilisé pour structurer le contenu d'une page (ses textes, ses images, ses liens...) <br/> Un document HTML est un fichier texte qui contient des balises (ou tag), ces balises doivent être utilisées d'une certaine façon pour décrire correctement la structure d'un document. Les balises indique au navigateur comment afficher le document. 
 		      </p>
@@ -62,20 +60,25 @@
                 <p>La structure de base d'un document HTML est défini avec un ensemble de balises spéciales.<br/> Ces éléments ne doivent pas apparaître plus d'une fois dans le document. 
 
                 On trouve dans ces balises : </p>
-                    <ul> 
+                    <ul class="liste"> 
                         <li> &lt;html&gt;</li>
                         <li> &lt;head&gt;</li>
                         <li> &lt;meta&gt;</li>
                         <li> &lt;body&gt;</li>
                         <li> &lt;title&gt;</li>
                     </ul>
-                
+        </section>
+          
+        <section class="des">          
             <h3>Description de la balise &lt;html&gt;</h3> 
                 <p>La balise HTML permet d'indiquer au navigateur web que le document auquel il accède est un document HTML. C'est l'élément racine de la page. </p>
+        </section>        
 		      <!-- Exemple -->
+        <section class="ex">     
             <h3>Exemple</h3>
                 <figure class="exemple"><img src="html.png" alt="Quelques ligne de code" width="455" height="228"/>
                 <figcaption>Utilisation de la balise &lt;html&gt;</figcaption></figure>
+        </section>
 	</main>
 
 </body> 

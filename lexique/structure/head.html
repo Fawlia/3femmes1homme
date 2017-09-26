@@ -4,17 +4,17 @@
     <head> 
         <meta charset="utf-8"/> 
         <title>Lexique html - Balise &lt;head&gt;</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header> 
-        <div><img src="../html.png" alt="logo html" width="#" height="#"/></div>
+        <div><img class="logo" src="../html.png" alt="logo html" width="#" height="#"/></div>
         <title>Lexique html - Balise &lt;head&gt;</title> 
         <nav>
             
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li>
+             <ul id="menu">
+                <li><strong> Structure </strong>
                     <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
@@ -23,8 +23,7 @@
                         <li><a href="../structure/body.html#body">body</a> </li> 
                     </ul>
                 </li>
-                <li><strong> Texte </strong></li>
-                <li>
+                <li><strong> Texte </strong>
                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
@@ -32,16 +31,14 @@
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
                     </ul>
                 </li>
-                <li><strong> Tableau </strong></li>
-                <li>
+                <li><strong> Tableau </strong>
                     <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
                     </ul>
                 </li> 
-                <li><strong> Formulaire </strong></li>
-                <li>
+                <li><strong> Formulaire </strong>
                     <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
@@ -55,20 +52,22 @@
     <main> 
 
         <h2 id="head"> Balise &lt;head&gt; </h2>
+        <section class="des">
             <h3> Description </h3> 
                 <p>Elément structurel d'un document HTML. Contient les informations essentielles à la description du document qui sera affiché dans le corps du document :</p>
-                    <ul> 
+                    <ul class="liste"> 
                         <li> Titre </li> 
                         <li> Feuilles de styles utilisées </li> 
                         <li> JavaScript utilisé </li> 
                         <li> Meta pour spécifier l'auteur, l'encodage...</li>
                     </ul> 
-            
+        </section>
+
+        <section class="ex">    
             <h3> Exemple </h3>
                <figure class="exemple"><img src="../structure/head.png" alt="Quelques ligne de code" width="392" height="150"/>
                 <figcaption>Utilisation de la balise  &lt;head&gt;</figcaption></figure>
-
-
+        </section>
     </main>
 
 </body> 
