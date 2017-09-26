@@ -3,18 +3,18 @@
 <html lang="fr"> 
     <head> 
         <meta charset="utf-8"/> 
-        <title>Lexique html - Balise &lt;title&gt;</title>  
+        <title>Lexique html - Balise &lt;title&gt;</title> 
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header> 
-        <div><img src="../html.png" alt="logo html" width="#" height="#"/></div>
+        <div><img class="logo" src="../html.png" alt="logo html" width="#" height="#"/></div>
         <h1> Lexique des balises HTML</h1>
         <nav>
             
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li>
+             <ul id="menu">
+                <li><strong> Structure </strong>
                     <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
@@ -23,8 +23,7 @@
                         <li><a href="../structure/body.html#body">body</a> </li> 
                     </ul>
                 </li>
-                <li><strong> Texte </strong></li>
-                <li>
+                <li><strong> Texte </strong>
                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
@@ -32,16 +31,14 @@
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
                     </ul>
                 </li>
-                <li><strong> Tableau </strong></li>
-                <li>
+                <li><strong> Tableau </strong>
                     <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
                     </ul>
                 </li> 
-                <li><strong> Formulaire </strong></li>
-                <li>
+                <li><strong> Formulaire </strong>
                     <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
@@ -56,19 +53,26 @@
     <main> 
         
         <h2 id="title">La balise &lt;title&gt; </h2>
+        <section class="des">
             <h3>Description</h3>
                 <p> <!-- Description -->
                 La balise &lt;title&gt; correspond au titre de votre page web. Il s’agit d’un champ essentiel à ne pas négliger dans le cadre d’une bonne stratégie d’optimisation du référencement naturel puisqu’elle est l’un des critères les plus importants pour les moteurs de recherche. <br/> Le contenu de la balise &lt;title&gt; d’une page web apparaît dans la partie supérieure de la fenêtre de navigation ainsi que dans le nom des onglets. <br/>
                 La balise titre d’une page doit impérativement parler du contenu de la page en question
                 </p> 
+        </section>
+
+        <section class="att">
             <h3>Attribut</h3>
                 <p> <!-- Attribut -->
                 La balise &lt;title&gt; ne possède aucun attribut dit obligatoire.
                 </p>
+        </section>
 
+        <section class="ex">
             <h3>Exemple</h3>
                 <figure class="exemple"><img src="exempletitle.png" alt="exemple de la balise title" width="357" height="299"/>
                 <figcaption>Utilisation de la balise &lt;title&gt;</figcaption></figure>
+        </section>
     </main>
 
 </body> 
