@@ -4,42 +4,47 @@
     <head> 
         <meta charset="utf-8"/> 
         <title>Lexique HTML - Balise &lt;p&gt; </title> 
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header> 
-        <div> <img src="../html.png" alt="Logo HTML5"/></div>
+        <div> <img class="logo" src="../html.png" alt="Logo HTML5"/></div>
         <h1> Lexique des balises HTML </h1>
         <nav>
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li><ul> 
+             <ul id="menu">
+                <li><strong> Structure </strong>
+                    <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
                         <li><a href="../structure/meta.html#meta"> meta</a> </li> 
                         <li><a href="../structure/title.html#title"> title</a> </li> 
                         <li><a href="../structure/body.html#body">body</a> </li> 
-                    </ul></li>
-                <li><strong> Texte </strong></li>
-                <li><ul> 
+                    </ul>
+                </li>
+                <li><strong> Texte </strong>
+                    <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
                         <li><a href="../texte/strong.html#strong"> strong</a> </li> 
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
-                    </ul> </li>
-                <li><strong> Tableau </strong></li>
-                <li><ul> 
+                    </ul>
+                </li>
+                <li><strong> Tableau </strong>
+                    <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
-                    </ul></li> 
-                <li><strong> Formulaire </strong></li>
-                <li><ul> 
+                    </ul>
+                </li> 
+                <li><strong> Formulaire </strong>
+                    <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
                         <li><a href="../formulaire/textarea.html#textarea"> textarea</a> </li> 
                         <li> <a href="../formulaire/select.html#select">select</a> </li> 
-                    </ul> </li>
+                    </ul>
+                </li>
             </ul>
         </nav>2
     </header>
@@ -47,9 +52,12 @@
     <main> 
 
         <h2 id="p"> La balise &lt;p&gt;</h2>
+        <section class="des">
         <h3> Description </h3> 
         <p> Utilisée pour mettre en forme le texte qu'elle contient dans un paragraphe. Son utilisation entraine l'apparition d'un saut de ligne avant et après son contenu.</p>
+        </section>
 
+        <section class="ex">
         <h3> Exemple</h3>
 
             <figure class="ecode">
@@ -61,7 +69,7 @@
                 <img src="presult.png" alt="Exemple de paragraphe" width="325" height="116">
                 <figcaption> Résultat utilisation de la balise &lt;p&gt;</figcaption>
             </figure> <!-- Exemple IRL -->
-
+        </section>
 
     </main>
 

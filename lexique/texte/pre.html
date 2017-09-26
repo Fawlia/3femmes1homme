@@ -4,42 +4,47 @@
     <head> 
         <meta charset="utf-8"/> 
         <title>Lexique HTML - &lt;pre&gt; </title> 
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head> 
 
 <body>
     <header>
-        <div> <img src="../html.png" alt="Logo HTML5"/> </div>
+        <div> <img class="logo" src="../html.png" alt="Logo HTML5"/> </div>
         <h1> Lexique des balises HTML </h1> 
         <nav>
-             <ul>
-                <li><strong> Structure </strong></li>
-                <li><ul> 
+             <ul id="menu">
+                <li><strong> Structure </strong>
+                <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
                         <li><a href="../structure/meta.html#meta"> meta</a> </li> 
                         <li><a href="../structure/title.html#title"> title</a> </li> 
                         <li><a href="../structure/body.html#body">body</a> </li> 
-                    </ul></li>
-                <li><strong> Texte </strong></li>
-                <li><ul> 
+                </ul>
+                </li>
+                <li><strong> Texte </strong>
+                <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
                         <li><a href="../texte/strong.html#strong"> strong</a> </li> 
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
-                    </ul></li> 
-                <li><strong> Tableau </strong></li>
-                <li><ul> 
+                </ul>
+                </li> 
+                <li><strong> Tableau </strong>
+                <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
-                    </ul></li> 
-                <li><strong> Formulaire </strong></li>
-                <li><ul> 
+                </ul>
+                </li> 
+                <li><strong> Formulaire </strong>
+                <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
                         <li><a href="../formulaire/textarea.html#textarea"> textarea</a> </li> 
                         <li> <a href="../formulaire/select.html#select">select</a> </li> 
-                    </ul> </li>
+                </ul>
+                </li>
             </ul>
         </nav> 
     </header>
@@ -47,14 +52,18 @@
     <main> 
 
         <h2 id="pre"> La balise &lt;pre&gt; </h2>
+        <section class="des">
         <h3> Description </h3>
         <p> Affiche le texte présent entre ses balises d'ouverture et de fermeture tel qu'il est écrit en respectant les espaces, les tabulations et les sauts à la ligne. Elle interprète également le code html qu'elle contient y compris l'affichage d'images par exemple. </p>
+        </section>
         
+        <section class="ex">
         <h3> Exemple </h3> 
             <figure clas="exemple">
                 <img src="pre.png" alt="Balise Pre" width="183" height="144">
                 <figcaption> Exemple utilisation de la balise &lt;pre&gt;</figcaption>
             </figure>
+        </section>
         
     </main>
 
