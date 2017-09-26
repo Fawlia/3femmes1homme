@@ -1,12 +1,9 @@
-/* menu deroulant*/
-
-
-body, html
-{
-margin:0px;
+body, html{
+	margin: 0px; 
 }
 
- nav{
+/* menu deroulant*/
+nav{
 	background-color:  #E34E26 ;
 }
 
@@ -47,67 +44,55 @@ margin:0px;
 }
 
 /* background des liens menus */
-
 #menu li:first-child{
 background-color: #E34E26;
-}
 
+}
 #menu li:nth-child(2){
 background-color: #E34E26;
-}
 
+}
 #menu li:nth-child(3){
 background-color: #E34E26;
-}
 
+}
 #menu li:last-child{
 background-color:  #E34E26;
+
 }
-
 /* background des liens sous menus */
-
 #menu li:first-child li{
 background:#E34E26;
 }
-
 #menu li:nth-child(2) li{
 background:#E34E26;
 }
-
 #menu li:nth-child(3) li{
 background:#E34E26;
 }
-
 #menu li:last-child li{
 background:#E34E26;
 }
-
 /* background des liens menus et sous menus au survol */
-
 #menu li:first-child:hover, #menu li:first-child li:hover{
 background:#FF977B;
 }
-
 #menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
 background:#FF977B;
 }
-
 #menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
 background:#FF977B;
 }
-
 #menu li:last-child:hover, #menu li:last-child li:hover{
 background:#FF977B;
 }
-
 /* les a href */
-
 #menu a{
 	text-decoration:none;
 	display:block;
 	padding:8px 32px;
 	color:#fff;
-	font-family: 'Poiret One'; 
+	font-family: 'Poiret One One'; 
 	font-style: bold; 
 	font-size: 0.8em; 
 }
@@ -127,16 +112,11 @@ color:#000;
 }
 
 /* Texte */ 
-
 @font-face{
 	font-family:'ArchisticoB';
 	src: url('Archistico_Bold.ttf'); 
 }
 
-@font-face{
-	font-family:'Poiret One'; 
-	src: url('Poiret OneOne-Regular.ttf');
-}
 
 h1 {
 	font-family: 'ArchisticoB'; 
@@ -157,23 +137,19 @@ p{
 }
 
 h2 {
-	font-family: 'Poiret One'; 
+	font-family: 'ArchisticoB'; 
 	text-align: center;
-	padding-top: 20px;
-	color: #E34E26;
 }
 
 h3{ 
-	font-family: 'Poiret One'; 
-	font-style: bold; 
-	color: #E34E26;
-}
-
-.liste {
 	font-family: 'Poiret One', cursive; 
 	font-style: bold; 
 	padding-right: 20px; 
 	padding-left: 20px;
+}
+
+.liste {
+	font-family: 'Poiret One', cursive;
 	font-size: 1.3em; 
 	margin-left: 70px; 
 }
@@ -185,7 +161,6 @@ figcaption {
 }
 
 /* Images */ 
-
 .logo {
 	width: 6%;
 	height: 7%;
@@ -200,6 +175,7 @@ figure {
 	padding-left: 20px;
 }
 
+
 /*bloc*/
 
 header {
@@ -207,37 +183,19 @@ header {
 	width : 100%;
 
 }
-
 .des{ 
-	width : auto;
-	margin-top: 40px; 
-	margin-left: 50px; 
-	margin-right: 50px; 
-	padding-top : 5px;
-	padding-bottom: 5px; 
-	padding-left: 30px; 
-	padding-right: 30px;  
-}
-
-.format{
-	box-shadow: 1px 2px 3px 1px grey;
-}
-
-.att{
-	width : auto;
-	margin-top: 40px; 
-	margin-left: 50px; 
-	margin-right: 50px; 
-	padding-top : 5px;
-	padding-bottom: 5px; 
-	padding-left: 30px; 
-	padding-right: 30px;
 	width : 100%; 
 	background-color: rgba(230, 66, 0, 0.2);
 	padding-bottom: 10px;  
 	padding-top: 10px; 
+
 }
 
+.att{
+	width : auto;
+	padding-top: 10px; 
+
+}
 
 .ex{
 	width : 100%;
@@ -252,3 +210,4 @@ header {
 	padding-bottom: 10px;  
 	padding-top: 10px;
 	 }
+
