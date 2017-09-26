@@ -4,42 +4,47 @@
     <head> 
         <meta charset="utf-8"/> 
         <title> Lexique HTML - Balise &lt;table&gt; </title> 
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head>  
 
 <body>
     <header> 
-    	<div> <img src="../html.png" alt="Logo HTML5"/> </div>
+    	<div> <img class="logo" src="../html.png" alt="Logo HTML5"/> </div>
     	<h1> Lexique des balises HTML </h1>
         <nav>
-             <ul>
-                <li><strong> Structure </strong></li>
-                    <li> <ul> 
+             <ul id="menu">
+                <li><strong> Structure </strong>
+                    <ul> 
                         <li><a href="../structure/html.html#html"> html </a></li>
                         <li><a href="../structure/head.html#head"> head</a> </li> 
                         <li><a href="../structure/meta.html#meta"> meta</a> </li> 
                         <li><a href="../structure/title.html#title"> title</a> </li> 
                         <li><a href="../structure/body.html#body">body</a> </li> 
-                    </ul> </li>
-                <li><strong> Texte </strong></li>
-                    <li> <ul> 
+                    </ul>
+                </li>
+                <li><strong> Texte </strong>
+                     <ul> 
                         <li> <a href="../texte/p.html#p">p</a> </li>
                         <li><a href="../texte/em.html#em"> em </a></li> 
                         <li><a href="../texte/strong.html#strong"> strong</a> </li> 
                         <li><a href="../texte/pre.html#pre"> pre</a> </li>
-                    </ul> </li>
-                <li><strong> Tableau </strong></li>
-                    <li> <ul> 
+                    </ul>
+                </li>
+                <li><strong> Tableau </strong>
+                    <ul> 
                         <li><a href="../tableau/table.html#table"> table</a> </li> 
                         <li><a href="../tableau/td.html#td"> td</a> </li> 
                         <li><a href="../tableau/tr.html#tr"> tr</a> </li> 
-                    </ul> </li>
-                <li><strong> Formulaire </strong></li>
-                    <li> <ul> 
+                    </ul>
+                </li>
+                <li><strong> Formulaire </strong>
+                    <ul> 
                         <li><a href="../formulaire/form.html#form"> form</a> </li> 
                         <li><a href="../formulaire/input.html#input"> input </a></li> 
                         <li><a href="../formulaire/textarea.html#textarea"> textarea</a> </li> 
                         <li> <a href="../formulaire/select.html#select">select</a> </li> 
-                    </ul> </li>
+                    </ul>
+                </li>
             </ul>
         </nav> 
     </header>
@@ -48,16 +53,21 @@
     <main> 
 
         <h2 id="table" > La balise &lt;table&gt; </h2>
+        <section class="des">
         <h3>Description</h3>
             <p>La balise &lt;table&gt; crée un tableau.</p> 
-       
+        </section>
+
+        <section class="att">
         <h3>Attribut</h3>
             <p>Il y a plusieurs attributs à cette balise : </p>
-            <ul>
+            <ul class="liste">
                 <li>cols=x : tableau composé de x colonnes</li>
                 <li>width=x%|y : tableau large large de x % | y pixels</li>
             </ul>
+        </section>
 
+        <section class="ex">
         <h3>Exemple</h3>
  
             <figure class="ecode">
@@ -68,8 +78,7 @@
             <figure class="eimg">
             	 <img src="capture1.png" alt="Exemple de tableau" width="421" height="136"/>
             </figure> 
-
-
+        </section>
     </main>
 
 </body> 
