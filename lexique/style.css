@@ -22,7 +22,7 @@ nav{
 	padding-bottom: 10px; 
 	color: #fff;
 	font-family: 'Poiret One';
-	font-size: 1.4em;  
+	font-size: 1.3em;
 }
 
 #menu ul li{ 
@@ -96,7 +96,7 @@ cursor:pointer;
 	display:block;
 	padding:8px 32px;
 	color:#fff;
-	font-family: 'Poiret One One'; 
+	font-family: 'Poiret One'; 
 	font-style: bold; 
 	font-size: 0.8em; 
 }
@@ -117,13 +117,17 @@ color:#000;
 
 /* Texte */ 
 @font-face{
-	font-family:'ArchisticoB';
-	src: url('Archistico_Bold.ttf'); 
+	font-family:'Roboto Mono';
+	src: url('RobotoMono-Bold.ttf');
 }
 
+@font-face{
+	font-family:'Poiret One';
+	src: url('PoiretOne-Regular.ttf'); 
+}
 
 h1 {
-	font-family: 'ArchisticoB'; 
+	font-family: 'Roboto Mono'; 
 	font-size: 3em; 
 	text-align: center;
 	margin-top: 0px; 
@@ -141,8 +145,13 @@ p{
 }
 
 h2 {
-	font-family: 'ArchisticoB'; 
+	font-family: 'Roboto Mono'; 
 	text-align: center;
+    background-color: rgba(230, 66, 0, 0.2);
+    margin: 0px;
+    padding: 30px;
+    font-size: 2em;
+    
 }
 
 h3{ 
@@ -211,7 +220,7 @@ header {
 	padding-top: 10px; 
 }
 
-.ht{
+h2.ht{
 	width : 100%;
 	background-color: rgba(230, 66, 0, 0.1);
 	padding-bottom: 10px;  
