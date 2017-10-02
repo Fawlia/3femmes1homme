@@ -135,7 +135,7 @@ nav{
 	src: url('../fonts/PoiretOne-Regular.ttf'); 
 }
 
-h1 {
+.titre {
 	font-family: 'Roboto Mono', cursive; 
 	font-size: 3em; 
 	text-align: center;
