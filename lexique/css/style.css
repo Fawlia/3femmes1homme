@@ -1,0 +1,247 @@
+body, html{
+	margin: 0px; 
+}
+
+/*----- menu deroulant -------*/
+/* Couleur de la barre de navigation */
+nav{
+	background-color:  #E34E26 ;
+}
+
+#menu, #menu ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+
+/* Indique le format de la première liste de notre menu */
+#menu li{
+	display:inline-block;
+	position:relative;
+	width: 21%;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	color: #fff;
+	font-family: 'Poiret One';
+	font-size: 1.3em;
+}
+
+/* Le sous menu n'hérite pas des propriétés du menu principal*/
+#menu ul li{ 
+	display:inherit;
+}
+
+/* Indique comment doit se comporter la liste des sous menus */
+#menu ul{
+	position:absolute;
+	z-index: 1000;
+	max-height:0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+}
+
+
+/* Comportement des listes du sous menu au passage de la souris */
+#menu li:hover ul{
+	max-height:20em; 
+	width: 475%;
+}
+
+/* background des liens menus */
+#menu li:first-child{
+	background-color: #E34E26;
+}
+
+#menu li:nth-child(2){
+	background-color: #E34E26;
+}
+
+#menu li:nth-child(3){
+	background-color: #E34E26;
+
+}
+#menu li:last-child{
+	background-color:  #E34E26;
+
+}
+/* background des liens sous menus */
+#menu li:first-child li{
+	background:#E34E26;
+}
+#menu li:nth-child(2) li{
+	background:#E34E26;
+}
+#menu li:nth-child(3) li{
+	background:#E34E26;
+}
+#menu li:last-child li{
+	background:#E34E26;
+}
+
+/* background des liens menus et sous menus au survol */
+#menu li:first-child:hover, #menu li:first-child li:hover{
+	background:#FF977B;
+	cursor:pointer;
+}
+#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
+	background:#FF977B;
+	cursor:pointer;
+}
+#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
+	background:#FF977B;
+	cursor:pointer;
+}
+#menu li:last-child:hover, #menu li:last-child li:hover{
+	background:#FF977B;
+	cursor:pointer;
+}
+
+/* Indique l'apparence des liens*/
+#menu a{
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:#fff;
+	font-family: 'Poiret One'; 
+	font-style: bold; 
+	font-size: 0.8em; 
+}
+
+#menu ul a{
+	padding:8px 0;
+	width : 100%;
+}
+
+/* Indique l'apparence des liens au passage de la souris */
+#menu li:hover li a{
+	color:#fff;
+	text-transform:inherit;
+}
+
+#menu li:hover a, #menu li li:hover a{
+	color:#000;
+}
+
+/* Texte */ 
+@font-face{
+	font-family:'Roboto Mono';
+	src: url('../fonts/RobotoMono-Bold.ttf');
+}
+
+@font-face{
+	font-family:'Poiret One';
+	src: url('../fonts/PoiretOne-Regular.ttf'); 
+}
+
+h1 {
+	font-family: 'Roboto Mono', cursive; 
+	font-size: 3em; 
+	text-align: center;
+	margin-top: 0px; 
+	color: white;
+	padding-top: 50px; 
+}
+
+h2 {
+	font-family: 'Roboto Mono', cursive; 
+	text-align: center;
+    background-color: rgba(230, 66, 0, 0.2);
+    margin: 0px;
+    padding: 30px;
+    font-size: 2em;
+    
+}
+
+h3{ 
+	font-family: 'Poiret One', cursive; 
+	font-style: bold; 
+	padding-right: 20px; 
+	padding-left: 20px;
+}
+
+p{
+	font-family: 'Poiret One', cursive; 
+	font-size: 1.3em; 
+	text-align: justify;
+	word-wrap: break-word;
+	padding-right: 20px; 
+	padding-left: 20px; 
+	padding-bottom: 20px; 
+	margin-bottom: 0px; 
+}
+
+.liste {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em; 
+	margin-left: 70px; 
+	margin-bottom: 0px;
+	padding-bottom: 20px;  
+}
+
+figcaption {
+	font-family: 'Poiret One', cursive; 
+	font-style: italic; 
+	text-align: center;
+}
+
+/* Images */ 
+.logo {
+	width: 6%;
+	height: 7%;
+	float : left;
+	margin-right: 20px; 
+	margin-left: 70px; 
+	margin-top: 15px;  
+}
+
+figure {
+	padding-right: 20px; 
+	padding-left: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+
+
+/*bloc*/
+
+header {
+	background-color: #E34E26;
+	width : 100%;
+
+}
+
+h2.ht{
+	width : 100%;
+	padding-bottom: 10px;  
+	padding-top: 10px;
+}
+
+.ht{
+	background-color: rgba(230, 66, 0, 0.1);
+}
+
+.des{ 
+	width : 100%; 
+	background-color: rgba(230, 66, 0, 0.2);
+	padding-bottom: 10px;  
+	padding-top: 10px; 
+
+}
+
+.att{
+	width : auto;
+	padding-top: 10px; 
+	background-color: rgba(230, 66, 0, 0.3); 
+	padding-top: 10px; 
+}
+
+.ex{
+	width : 100%;
+	background-color: rgba(230, 66, 0, 0.1);  
+	padding-bottom: 10px;  
+	padding-top: 10px; 
+}
+

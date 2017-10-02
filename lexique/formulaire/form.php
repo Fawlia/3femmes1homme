@@ -3,53 +3,26 @@
 <html lang="fr"> 
     <head> 
         <meta charset="utf-8"/> 
+        <meta name="language" content="fr">
+        <meta property="og:title" content="Lexique html - Balise &lt;form&gt;">
+        <meta property="og:type" content="Site web - Balises HTML5">
+        <meta property="og:image" content="../images/html.png">
+        <meta property="og:image:width" content="87">
+        <meta property="og:image:height" content="120">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:url" content="https://magalih.promo-5.codeur.online/3femmes1homme/lexique/formulaire/form.php">
+        <meta name="description" content="information sur la balise Balise &lt;form&gt; avec une courte description et exemple ">
+        <meta name="keywords" content="HTML, form, Balise &lt;form&gt;, Description, Développement, tutoriel, exemple">
         <title>Lexique html - Balise &lt;form&gt;</title> 
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head> 
 
 <body>
-    <header> 
-        <div><img class='logo' src="../html.png" alt="logo html" width="87" height="120"/></div>
-        <h1> Lexique des balises HTML</h1>
-        <nav>
-             <ul id="menu">
-                <li><strong> Structure </strong>
-                    <ul> 
-                        <li><a href="../structure/html.html"> &lt;html&gt; </a></li>
-                        <li><a href="../structure/head.html"> &lt;head&gt;</a> </li> 
-                        <li><a href="../structure/meta.html"> &lt;meta&gt;</a> </li> 
-                        <li><a href="../structure/title.html"> &lt;title&gt;</a> </li> 
-                        <li><a href="../structure/body.html">&lt;body&gt;</a> </li> 
-                    </ul>
-                </li>
-                <li><strong> Texte </strong>
-                    <ul> 
-                        <li> <a href="../texte/p.html">&lt;p&gt;</a> </li>
-                        <li><a href="../texte/em.html"> &lt;em&gt; </a></li> 
-                        <li><a href="../texte/strong.html"> &lt;strong&gt;</a> </li> 
-                        <li><a href="../texte/pre.html"> &lt;pre&gt;</a> </li>
-                    </ul>
-                </li>
-                <li><strong> Tableau </strong>
-                    <ul> 
-                        <li><a href="../tableau/table.html"> &lt;table&gt;</a> </li> 
-                        <li><a href="../tableau/td.html"> &lt;td&gt;</a> </li> 
-                        <li><a href="../tableau/tr.html"> &lt;tr&gt;</a> </li> 
-                    </ul>
-                </li> 
-                <li><strong> Formulaire </strong>
-                    <ul> 
-                        <li><a href="../formulaire/form.html"> &lt;form&gt;</a></li> 
-                        <li><a href="../formulaire/input.html"> &lt;input&gt; </a></li> 
-                        <li><a href="../formulaire/textarea.html"> &lt;textarea&gt;</a></li> 
-                        <li><a href="../formulaire/select.html">&lt;select&gt;</a></li> 
-                    </ul>
-                </li>
-            </ul>
-        </nav> 
-    </header>
+    <?php
+        include '../header.php';
+    ?>
 
     <main> 
         <h2>La balise &lt;form&gt; </h2>
@@ -78,13 +51,13 @@
         <section class="ex">
             <h3>Exemple</h3>
                 <figure class="ecode">
-                    <img src="exemplecodeform.png" width="402" height="212" alt="exemple code form"/>
+                    <img src="../images/exemplecodeform.png" width="402" height="212" alt="exemple code form"/>
                     <figcaption>"Code écrit en utilisant la balise &lt;form&gt;"</figcaption>
                 </figure>
                 
         <!-- Exemple IRL -->            
                 <figure class="eimg">
-                    <img src="exempleirlform.png" width="253" height="92" alt="resultat exemple form"/>
+                    <img src="../images/exempleirlform.png" width="253" height="92" alt="resultat exemple form"/>
                     <figcaption>"Résultat réel de l'écriture du code avec la balise &lt;form&gt;"</figcaption>
                 </figure>
         </section>
